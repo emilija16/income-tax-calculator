@@ -46,7 +46,7 @@ class IncomeTable extends React.Component {
   };
 
   render() {
-    const salaries = this.props.salaries;
+    const { salaries } = this.props;
     const { income } = this.state;
 
     return (
